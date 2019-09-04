@@ -11,7 +11,7 @@ length = int(input("[-] Password Length: "))         					 #    Choose length of
 while len(passwd) != length:
 	passwd = passwd + random.choice(chars)
 	if len(passwd) == length:
-		print("[+] Password: %s" % passwd)					 #	  Prints password generated <-- comment out if you don't want it printed
-		pyperclip.copy(passwd)							 #	  Copies password to clipboard	
+		print("[+] Password: %s" % passwd)					 #    Prints password generated <-- comment out if you don't want it printed
+		pyperclip.copy(passwd)							 #    Copies password to clipboard	
 		print("[+] Password has been copied to clipboard!")
 		print("")
